@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sedat\\source\\repos\\ReadBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\uilayer\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|solutionrelative:uilayer\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F606FD-05E4-4441-96A6-AEA77928C32A}|Infrastructure\\Infrastructure.csproj|c:\\users\\sedat\\source\\repos\\readbook\\infrastructure\\repositories\\concrete\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F606FD-05E4-4441-96A6-AEA77928C32A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\concrete\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760F94C1-4682-4B3A-89BF-1A9908B6EAC5}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\applicationlayer\\services\\bookservice\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760F94C1-4682-4B3A-89BF-1A9908B6EAC5}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\bookservice\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\uilayer\\areas\\adminpanel\\views\\book\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|solutionrelative:uilayer\\areas\\adminpanel\\views\\book\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\uilayer\\areas\\adminpanel\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|solutionrelative:uilayer\\areas\\adminpanel\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\uilayer\\models\\addbookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|solutionrelative:uilayer\\models\\addbookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3F606FD-05E4-4441-96A6-AEA77928C32A}|Infrastructure\\Infrastructure.csproj|c:\\users\\sedat\\source\\repos\\readbook\\infrastructure\\entitytypeconfigurations\\book_cfg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3F606FD-05E4-4441-96A6-AEA77928C32A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\entitytypeconfigurations\\book_cfg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\domainlayer\\repositories\\abstract\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\repositories\\abstract\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\uilayer\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|solutionrelative:uilayer\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\domainlayer\\enums\\isregistered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\enums\\isregistered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\domainlayer\\entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\domainlayer\\entities\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\domainlayer\\entities\\concrete\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\concrete\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\domainlayer\\entities\\concrete\\corner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2363A9-1624-4DB6-B48A-71DB61B68F93}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\concrete\\corner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760F94C1-4682-4B3A-89BF-1A9908B6EAC5}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\applicationlayer\\models\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760F94C1-4682-4B3A-89BF-1A9908B6EAC5}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\models\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|c:\\users\\sedat\\source\\repos\\readbook\\uilayer\\areas\\adminpanel\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88770924-AF39-469C-BB07-CFC8711403D6}|UILayer\\UILayer.csproj|solutionrelative:uilayer\\areas\\adminpanel\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\ApplicationLayer\\Services\\BookService\\BookService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\BookService\\BookService.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\ApplicationLayer\\Services\\BookService\\BookService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\BookService\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:22:56.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "UILayer\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "UILayer\\Views\\Login\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:58:05.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookVM.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\ApplicationLayer\\Models\\ViewModels\\BookVM.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Models\\ViewModels\\BookVM.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\ApplicationLayer\\Models\\ViewModels\\BookVM.cs",
+              "RelativeToolTip": "ApplicationLayer\\Models\\ViewModels\\BookVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T09:56:11.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Corner.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Concrete\\Corner.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Concrete\\Corner.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Concrete\\Corner.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\Concrete\\Corner.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:18:47.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Areas\\AdminPanel\\Views\\Book\\CreateBook.cshtml",
+              "RelativeDocumentMoniker": "UILayer\\Areas\\AdminPanel\\Views\\Book\\CreateBook.cshtml",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Areas\\AdminPanel\\Views\\Book\\CreateBook.cshtml",
+              "RelativeToolTip": "UILayer\\Areas\\AdminPanel\\Views\\Book\\CreateBook.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:35:47.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Areas\\AdminPanel\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "UILayer\\Areas\\AdminPanel\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Areas\\AdminPanel\\Controllers\\BookController.cs",
+              "RelativeToolTip": "UILayer\\Areas\\AdminPanel\\Controllers\\BookController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwEkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T09:00:57.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Areas\\AdminPanel\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "UILayer\\Areas\\AdminPanel\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Areas\\AdminPanel\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "UILayer\\Areas\\AdminPanel\\Views\\Book\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T09:00:17.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Abstract\\IEntity.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Abstract\\IEntity.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Abstract\\IEntity.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\Abstract\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:55:54.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Repositories\\Abstract\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Repositories\\Abstract\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Repositories\\Abstract\\IBaseRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Repositories\\Abstract\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:56:07.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddBookVM.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Models\\AddBookVM.cs",
+              "RelativeDocumentMoniker": "UILayer\\Models\\AddBookVM.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Models\\AddBookVM.cs",
+              "RelativeToolTip": "UILayer\\Models\\AddBookVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:00:17.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "UILayer\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\UILayer\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "UILayer\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T16:18:10.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\Infrastructure\\Repositories\\Concrete\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Concrete\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\Infrastructure\\Repositories\\Concrete\\BaseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Concrete\\BaseRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:55:05.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book_CFG.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\Infrastructure\\EntityTypeConfigurations\\Book_CFG.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityTypeConfigurations\\Book_CFG.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\Infrastructure\\EntityTypeConfigurations\\Book_CFG.cs",
+              "RelativeToolTip": "Infrastructure\\EntityTypeConfigurations\\Book_CFG.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T16:34:56.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Concrete\\Category.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Concrete\\Category.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Concrete\\Category.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\Concrete\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:18:37.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Concrete\\Book.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Concrete\\Book.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Entities\\Concrete\\Book.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\Concrete\\Book.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:18:08.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IsRegistered.cs",
+              "DocumentMoniker": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Enums\\IsRegistered.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Enums\\IsRegistered.cs",
+              "ToolTip": "C:\\Users\\sedat\\source\\repos\\ReadBook\\DomainLayer\\Enums\\IsRegistered.cs",
+              "RelativeToolTip": "DomainLayer\\Enums\\IsRegistered.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:55:58.608Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

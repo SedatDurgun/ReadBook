@@ -1,0 +1,143 @@
+﻿@using UILayer.Models
+@model AddBookVM
+<h1>
+     Add The Books 
+</h1>
+  
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <style>
+            h1{
+                color:black;
+                
+            }
+            body{
+            background-image: url('https://cdn1.ntv.com.tr/gorsel/CDmFqIMgJkOtqCz5JZUC7Q.jpg?width=1000&mode=crop&scale=both');
+            height:100vh;
+            margin:0;
+           display:flow;
+            }
+            .card{
+               width:40rem;
+               margin:20px;
+               
+           
+            }
+            .card-header{
+                color:maroon;
+                font-weight:bolder;
+                font-size:20px;
+                backdrop-filter:blur(5px);
+                background-color:bisque;
+
+            }
+
+
+            .card-body{
+                background-color:bisque;
+            }
+         label{
+             color:maroon;
+             font-weight:bold;
+         }
+         .form-control{
+             background-color:blanchedalmond;
+             font-weight:bold;
+             border-radius:30px;
+         }
+         .btn-primary{
+             background-color:gray;
+             color:white;
+             width:100px;
+             border-radius:10px;
+             cursor:pointer;
+             padding:10px;
+             margin:5px;
+             font-weight:bolder;
+             font-size:15px;
+            transition: background-color 0.3s, transform 0.3s;
+
+
+         }
+         .btn-primary:hover{
+             background-color:black;
+             transform:scale(1.05);
+         }
+         .summary
+         {
+         height:40vh;
+         }
+        </style>
+
+
+</head>
+    <body>
+    <form method="post" asp-action="CreateBook" enctype="multipart/form-data">
+        <div class="card">
+            <div class="card-header">
+                <div class="form-group">
+                    <label asp-for="BookPicture">Book Picture</label>
+                    <input asp-for="BookPicture" class="form-control" placeholder="Upload book picture..." />
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label asp-for="BookName">Book Name</label>
+                    <input asp-for="BookName" class="form-control" placeholder="Book Name..." />
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoryName">Category Name</label>
+                    <input asp-for="CategoryName" class="form-control" placeholder="Category Name..." />
+                </div>
+                <div class="form-group">
+                    <label asp-for="AuthorName">Author Name</label>
+                    <input asp-for="AuthorName" class="form-control" placeholder="Author Name..." />
+                </div>
+                <div class="form-group">
+                    <label asp-for="BookSummary">Book Summary</label>
+                    <textarea asp-for="BookSummary" class="form-control summary" placeholder="Book Summary..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BookPrice">Price</label>
+                    <input asp-for="BookPrice" class="form-control" placeholder="Price..." />
+                </div>
+                <div>
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                </div>
+                <button type="submit" value="CreateBook" class="btn btn-primary">Kaydet</button>
+                <a href="#" class="btn btn-secondary">Cancel</a>
+            </div>
+        </div>
+    </form>
+
+
+        
+
+    </body>
+</html>
+
+
+
+
+
+
+@* 
+<div class="card" style="width: 18rem;">
+  <div class="card-header" ><input asp-for="BookPicture" placeholder="Book Picture.."/></div>
+    <div class="card-body">
+        <input asp-for="BookName" placeholder="Book Name.." />
+        <input asp-for="CategoryName" placeholder="Category Name.." />
+        <input asp-for="AuthorName" placeholder=" Author Name.." />
+        <input asp-for="BookSummary" placeholder="Book Summary" />
+        <input asp-for="BookPrice" class="BookPrice" placeholder=" Price.." />
+        <label colspan="2">
+            <div asp-validation-summary="All"></div>
+            </label>
+
+
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div> *@

@@ -1,0 +1,75 @@
+﻿@using ApplicationLayer.Models.ViewModels
+@using DomainLayer.Entities.Concrete
+@using Microsoft.AspNetCore.Identity
+@model IEnumerable<BookVM>
+
+ 
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .card-img-top {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Resmin kart içinde düzgün sığmasını sağladım */
+    }
+
+    .card-price {
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #d9534f; 
+    }
+
+    .auth-name {
+        margin-bottom: 10px;
+        font-size: 1em;
+        color: #777;
+    }
+
+    .oku-btn {
+        display: inline-block;
+        width: 100px; 
+        border: 2px solid maroon; 
+        background-color: transparent; /* Arka planı şeffaf yaptım */
+        color: darkred; 
+        text-align: center; 
+        padding: 5px 10px; 
+        transition: background-color 0.3s, color 0.3s; 
+        text-decoration: none; /* Bağlantı stilinii kaldırdım */
+        margin-right:10px;
+        margin-left:auto;
+        float:right; /* En sağa aldım */
+
+
+
+    }
+
+        .oku-btn:hover {
+            background-color: orangered; /* Hover durumunda arka plan rengi */
+            color: wheat; /* Hover durumunda metin rengini belirledim */
+        }
+
+
+</style>
+
+<div class="row-cols-4">
+  @foreach (var item in Model)
+    {
+        <div class="card">
+            <div class="card-header">
+                <img src="~/BookPictures/@item.BookPicture" class="card-img-top" alt="Book Image">
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">@item.BookName</h4>
+                <p class="auth-name">@item.AuthorName</p>
+                <span class="card-price">@item.BookPrice</span>
+                <a asp-area="UserPanel" asp-controller="User" asp-action="Index" class="btn btn-outline-primary mt-2 oku-btn">Oku</a>
+            </div>
+        </div>
+
+
+    }
+</div>

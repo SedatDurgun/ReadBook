@@ -1,0 +1,91 @@
+﻿@using ApplicationLayer.Models.ViewModels
+@model CategoryVM
+
+
+@*Yazılışı daha modern göründüğü bu seferlik bu kullanıldı*@
+
+<style>
+    h1{
+       color:maroon;
+       font-weight:bolder;
+     
+
+
+    }
+    body{
+        background-color:dimgrey;
+        align-items:center;
+    }
+    .form-group
+    {
+       width:100vh;
+       height:20vh;
+    }
+
+    label{
+        color:black;
+        font-weight:bold;
+        margin-inline:15px;
+        padding:1px;
+    }
+    input{
+        border-radius:40px;
+        padding:10px;
+        height:50px;
+        font-weight:200;
+    
+    }
+    .btn-primary{
+        background-color:burlywood;
+        width: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px;
+        margin: 5px;
+        font-weight: bolder;
+        font-size: 15px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+
+
+
+</style>
+
+<h1>Category Güncelleme </h1> 
+
+
+
+<h1>Category Güncelleme</h1>
+
+<form asp-action="UpdateCategory" method="post">
+    <div class="form-group">
+        <input type="hidden" asp-for="CategoryID" />
+
+        <label asp-for="CategoryName" class="control-label"></label>
+        <input asp-for="CategoryName" class="form-control" placeholder="Category Name..." />
+        <span asp-validation-for="CategoryName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Update" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+ <!--form doğrulama scriptlerini yüklemek için kullanılır ve istemci tarafında form doğrulama işlevselliği sağlar. Bu, kullanıcı deneyimini iyileştirir ve sunucu üzerindeki yükü azaltır.-->
+
+
+
+
+
+
+
+
+
+
+

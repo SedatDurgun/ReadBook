@@ -1,0 +1,28 @@
+﻿<h1>Admin Panel</h1>
+
+<style>
+
+    body {
+        /* background-image: url('https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2058000/kutuphane-iha-2059040.jpg'); */
+        padding:0px;
+        margin:0;
+      
+    }
+    h1{
+    color:white;
+    font-weight:bolder;
+    color:maroon;
+     margin:10px;
+    backdrop-filter:blur(5px);
+    text-align:center;
+    
+    }
+   
+</style>
+
+
+
+<ul>
+    <li><a class="btn btn-outline-danger" style="margin:10px;" asp-area="AdminPanel" asp-controller="Book" asp-action="Index">Kitapları Düzenle</a></li>
+    <li><a class="btn btn-outline-success" asp-area="AdminPanel" asp-controller="Category" asp-action="Index">Kategorileri Düzenle</a></li>
+</ul>

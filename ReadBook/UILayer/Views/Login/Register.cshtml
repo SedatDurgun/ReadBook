@@ -1,0 +1,186 @@
+﻿@using ApplicationLayer.Models.ViewModels
+
+@model NewUserVM
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-image: url('https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2058000/kutuphane-iha-2059040.jpg');
+            height: 100vh;
+            margin:0;
+            display: flex;
+          /*   align-items: center;
+            justify-content: center; */
+        }
+
+        .register-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+           
+
+        }
+
+        .register-box {
+            
+            padding:20px;
+            border-radius: 50px;
+            box-shadow: 0 8px 16px brown; @*gölgeleme yaptım *@
+            width: 100%;
+            margin:50px;
+            max-width: 400px; 
+            text-align: center;
+            backdrop-filter:blur(5px); @*Arka planı bulanıklaştırdım*@
+        }
+
+        .title-box {
+            font-weight: bold;
+            color:yellowgreen;
+            width:100%;
+        }
+
+        .table {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border-collapse:collapse;
+        }
+
+            .table th {
+                font-size: 2.0em;
+                padding-bottom: 15px;
+            }
+
+        .btn-primary {
+            width: 100px; 
+            height: 50px; 
+            background-color: antiquewhite;
+            color: chocolate;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.5s, transform 0.5s;
+            justify-content:center;
+            margin-bottom:auto;
+            
+        }
+
+            .btn-primary:hover {
+                background-color: beige;
+                transform: scale(1.05);
+            }
+
+            .btn-primary:active {
+                transform: scale(0.95);
+            }
+
+        label {
+            display:block;
+            margin-bottom:5px;
+            font-weight: bold;
+            color:maroon;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
+        
+
+        input {
+            border-radius: 20px;
+            font-weight:400;
+            padding: 10px;
+        }
+
+
+      </style>
+
+
+
+
+    </head>
+
+    <body>
+    <div class="register-container">
+        <div class="register-box">
+            <form method="post" asp-action="Register">
+                <table class="table" >
+
+                    <thead>
+                        <tr>
+                            <td class="title-box" colspan="2" > Please Enter Your Personal Information</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><label asp-for="Name"></label></td>
+                        <td><input type="text" asp-for="Name" placeholder="Name.." /></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="LastName"></label></td>
+                        <td><input type="text" asp-for="LastName" placeholder="LastName.." /></td>
+
+                    </tr>
+                    <tr>
+                        <td><label asp-for="UserName"></label></td>
+                        <td><input type="text" asp-for="UserName" placeholder="UserName.." /></td>
+                    </tr>
+
+                    <tr>
+                        <td><label asp-for="Email"></label></td>
+                        <td><input type="email" asp-for="Email" placeholder="Email.." /></td>
+
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Password"></label></td>
+                        <td><input type="password" asp-for="Password" placeholder="Password.." /></td>
+
+                    </tr>
+                    <tr>
+                        <td><label asp-for="RepeatPassword "></label></td>
+                        <td><input type="password" asp-for="RepeatPassword" placeholder="Repeat Password.." /></td>
+
+                    </tr>
+                    <tr>
+                        <td><label asp-for="Adress "></label></td>
+                        <td>
+                            <input asp-for="Adress" type="text"  placeholder="Adress." />
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="btn btn-primary" type="submit" value="Register" />
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div asp-validation-summary="All"></div>
+                        </td>
+
+                    </tr>
+
+                </table>
+
+
+            </form>
+        </div>
+    </div>
+
+    </body>
+</html>

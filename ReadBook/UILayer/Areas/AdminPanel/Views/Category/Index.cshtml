@@ -1,0 +1,54 @@
+﻿@using ApplicationLayer.Models.ViewModels;
+@model List<CategoryVM>
+
+    <script>
+
+        function Delete() 
+        {
+            return confirm("Silmek istediğinizden Emin Misiniz?")
+        }
+
+    </script>
+
+
+
+    <style>
+
+        body{
+        background-color:gainsboro;
+        
+        }
+
+
+    </style>
+
+<h1>Tüm Kategoriler</h1>
+ <a id="AddCategory" asp-action="CreateCategory" class="btn btn-outline-success">Kategori Ekle</a>
+<table class="table table-striped" >
+    @foreach (var item in Model){
+    
+        <tr>
+            <td>
+                @item.CategoryName
+            </td>
+        </tr>
+
+        <tr>
+        <td>
+            <a asp-action="UpdateCategory" asp-route-id="@item.CategoryID" class="btn btn-outline-dark">Güncelle</a>
+           
+                <form method="post" asp-action="DeleteCategory">
+                    <input type="hidden" value="@item.CategoryID" name="id" />
+                    <input type="submit" value="Sil" class="btn btn-outline-danger" onclick="return Delete()" />
+                </form>
+
+
+        </td>
+        </tr>
+        
+       
+    }
+
+
+
+</table>
